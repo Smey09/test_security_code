@@ -1,4 +1,4 @@
-FROM node:lts-buster-slim
+FROM node:20.18.1-bookworm-slim
 
 # Install packages
 RUN apt update && apt install supervisor -y
